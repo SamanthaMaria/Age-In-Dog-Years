@@ -1,0 +1,15 @@
+//declaring constant variable for my age
+const myAge = 30;
+//declaring changeable variable for early years of dog
+let earlyYears = 2;
+earlyYears *= 10.5;
+//declaring changeable variable for later years of dog
+let laterYears = myAge - 2;
+//multiplying the later years by four
+laterYears *= 4;
+//finding my age in dog years by adding early years and later years
+myAgeInDogYears = earlyYears + laterYears;
+//declaring variable for my name and converting it to all lowercase letters
+let myName = 'Samantha D'.toLowerCase();
+//writing a statement that displays my age as well as my age in dog years with string interpolation
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
